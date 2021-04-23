@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "ilikewood:imparius_panels"
+  },
+  "result": "ilikewood:imparius_stick",
+  "count": 2
+}

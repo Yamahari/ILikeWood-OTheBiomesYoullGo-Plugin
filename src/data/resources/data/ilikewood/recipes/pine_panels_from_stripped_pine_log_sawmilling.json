@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_pine_log"
+  },
+  "result": "ilikewood:pine_panels",
+  "count": 4
+}

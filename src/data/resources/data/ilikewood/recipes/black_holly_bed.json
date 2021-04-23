@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "beds",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_wool"
+    },
+    "X": {
+      "item": "ilikewood:holly_panels"
+    }
+  },
+  "result": {
+    "item": "ilikewood:black_holly_bed"
+  }
+}

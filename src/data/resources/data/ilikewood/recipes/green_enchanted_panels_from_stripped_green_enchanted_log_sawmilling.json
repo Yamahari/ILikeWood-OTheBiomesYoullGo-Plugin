@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_green_enchanted_log"
+  },
+  "result": "ilikewood:green_enchanted_panels",
+  "count": 4
+}

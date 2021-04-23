@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:maple_planks"
+  },
+  "result": "ilikewood:maple_panels_stairs",
+  "count": 1
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "ilikewood:block/panels/slab/top/lament"
+    },
+    "type=bottom": {
+      "model": "ilikewood:block/panels/slab/lament"
+    },
+    "type=double": {
+      "model": "ilikewood:block/panels/lament"
+    }
+  }
+}

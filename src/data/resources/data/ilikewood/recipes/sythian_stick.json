@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sticks",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "ilikewood:sythian_panels"
+    }
+  },
+  "result": {
+    "item": "ilikewood:sythian_stick",
+    "count": 4
+  }
+}

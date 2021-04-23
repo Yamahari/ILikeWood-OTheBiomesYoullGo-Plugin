@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sticks",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "ilikewood:embur_panels"
+    }
+  },
+  "result": {
+    "item": "ilikewood:embur_stick",
+    "count": 4
+  }
+}

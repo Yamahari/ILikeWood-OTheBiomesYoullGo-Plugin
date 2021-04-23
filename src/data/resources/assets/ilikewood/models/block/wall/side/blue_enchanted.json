@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "byg:block/stripped_blue_enchanted_log"
+  }
+}

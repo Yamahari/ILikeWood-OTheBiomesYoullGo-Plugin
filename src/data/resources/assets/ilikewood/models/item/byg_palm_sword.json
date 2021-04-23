@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ilikewood:item/stick/sword/byg_palm",
+    "layer1": "ilikewood:item/sword/wooden/byg_palm"
+  }
+}

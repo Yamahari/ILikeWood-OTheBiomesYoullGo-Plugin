@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_ether_log"
+  },
+  "result": "ilikewood:stripped_ether_post",
+  "count": 2
+}

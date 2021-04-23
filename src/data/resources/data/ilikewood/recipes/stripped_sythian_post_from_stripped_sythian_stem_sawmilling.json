@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_sythian_stem"
+  },
+  "result": "ilikewood:stripped_sythian_post",
+  "count": 2
+}

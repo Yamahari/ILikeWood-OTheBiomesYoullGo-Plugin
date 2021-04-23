@@ -1,0 +1,8 @@
+{
+  "parent": "ilikewood:block/composter/template",
+  "textures": {
+    "top": "ilikewood:block/composter/top/bulbis",
+    "side": "ilikewood:block/composter/side/bulbis",
+    "bottom": "ilikewood:block/composter/bottom/bulbis"
+  }
+}

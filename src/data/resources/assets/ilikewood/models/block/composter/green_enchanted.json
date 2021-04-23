@@ -1,0 +1,8 @@
+{
+  "parent": "ilikewood:block/composter/template",
+  "textures": {
+    "top": "ilikewood:block/composter/top/green_enchanted",
+    "side": "ilikewood:block/composter/side/green_enchanted",
+    "bottom": "ilikewood:block/composter/bottom/green_enchanted"
+  }
+}

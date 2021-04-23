@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:holly_planks"
+  },
+  "result": "ilikewood:holly_panels_slab",
+  "count": 2
+}

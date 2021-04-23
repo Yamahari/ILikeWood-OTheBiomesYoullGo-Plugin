@@ -1,0 +1,6 @@
+{
+  "parent": "ilikewood:item/aspen_fishing_rod",
+  "textures": {
+    "layer0": "ilikewood:item/fishing_rod/cast/aspen"
+  }
+}

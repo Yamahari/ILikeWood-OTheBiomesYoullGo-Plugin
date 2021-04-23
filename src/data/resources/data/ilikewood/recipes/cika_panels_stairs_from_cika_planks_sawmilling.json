@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:cika_planks"
+  },
+  "result": "ilikewood:cika_panels_stairs",
+  "count": 1
+}

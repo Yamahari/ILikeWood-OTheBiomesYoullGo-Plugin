@@ -1,0 +1,7 @@
+{
+  "parent": "ilikewood:block/wall/inventory/template",
+  "textures": {
+    "post": "byg:block/ether_log",
+    "side": "byg:block/stripped_ether_log"
+  }
+}

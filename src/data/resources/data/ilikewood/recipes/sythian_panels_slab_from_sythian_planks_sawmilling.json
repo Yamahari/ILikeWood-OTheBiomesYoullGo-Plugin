@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:sythian_planks"
+  },
+  "result": "ilikewood:sythian_panels_slab",
+  "count": 2
+}

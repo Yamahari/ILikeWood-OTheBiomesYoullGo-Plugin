@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "ilikewood:holly_panels"
+  },
+  "result": "ilikewood:holly_stick",
+  "count": 2
+}

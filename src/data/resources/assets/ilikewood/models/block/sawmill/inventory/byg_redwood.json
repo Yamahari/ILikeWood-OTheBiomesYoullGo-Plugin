@@ -1,0 +1,10 @@
+{
+  "parent": "ilikewood:block/sawmill/inventory/template",
+  "textures": {
+    "log_end": "byg:block/redwood_log_top",
+    "log_side": "byg:block/redwood_log",
+    "stripped_log_side": "byg:block/stripped_redwood_log",
+    "planks": "byg:block/redwood_planks",
+    "log_pile": "ilikewood:block/log_pile/byg_redwood"
+  }
+}

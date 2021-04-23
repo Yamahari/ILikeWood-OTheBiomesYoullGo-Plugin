@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_fir_log"
+  },
+  "result": "ilikewood:byg_fir_panels",
+  "count": 4
+}

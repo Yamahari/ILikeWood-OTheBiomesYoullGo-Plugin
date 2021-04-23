@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "panels",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:blue_enchanted_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:blue_enchanted_panels"
+  }
+}

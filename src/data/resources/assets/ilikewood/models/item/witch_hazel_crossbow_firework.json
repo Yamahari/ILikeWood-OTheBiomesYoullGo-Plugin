@@ -1,0 +1,6 @@
+{
+  "parent": "ilikewood:item/witch_hazel_crossbow",
+  "textures": {
+    "layer0": "ilikewood:item/crossbow/firework/witch_hazel"
+  }
+}

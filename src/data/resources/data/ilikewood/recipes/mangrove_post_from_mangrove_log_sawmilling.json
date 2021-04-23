@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:mangrove_log"
+  },
+  "result": "ilikewood:mangrove_post",
+  "count": 2
+}

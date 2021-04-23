@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,model=bottom_left": {
+      "model": "ilikewood:block/sawmill/bottom/left/ether"
+    },
+    "facing=south,model=bottom_left": {
+      "model": "ilikewood:block/sawmill/bottom/left/ether",
+      "y": 180
+    },
+    "facing=west,model=bottom_left": {
+      "model": "ilikewood:block/sawmill/bottom/left/ether",
+      "y": 270
+    },
+    "facing=east,model=bottom_left": {
+      "model": "ilikewood:block/sawmill/bottom/left/ether",
+      "y": 90
+    },
+    "facing=north,model=bottom_right": {
+      "model": "ilikewood:block/sawmill/bottom/right/ether"
+    },
+    "facing=south,model=bottom_right": {
+      "model": "ilikewood:block/sawmill/bottom/right/ether",
+      "y": 180
+    },
+    "facing=west,model=bottom_right": {
+      "model": "ilikewood:block/sawmill/bottom/right/ether",
+      "y": 270
+    },
+    "facing=east,model=bottom_right": {
+      "model": "ilikewood:block/sawmill/bottom/right/ether",
+      "y": 90
+    },
+    "facing=north,model=top_left": {
+      "model": "ilikewood:block/sawmill/top/left/ether"
+    },
+    "facing=south,model=top_left": {
+      "model": "ilikewood:block/sawmill/top/left/ether",
+      "y": 180
+    },
+    "facing=west,model=top_left": {
+      "model": "ilikewood:block/sawmill/top/left/ether",
+      "y": 270
+    },
+    "facing=east,model=top_left": {
+      "model": "ilikewood:block/sawmill/top/left/ether",
+      "y": 90
+    },
+    "facing=north,model=top_right": {
+      "model": "ilikewood:block/sawmill/top/right/template"
+    },
+    "facing=south,model=top_right": {
+      "model": "ilikewood:block/sawmill/top/right/template",
+      "y": 180
+    },
+    "facing=west,model=top_right": {
+      "model": "ilikewood:block/sawmill/top/right/template",
+      "y": 270
+    },
+    "facing=east,model=top_right": {
+      "model": "ilikewood:block/sawmill/top/right/template",
+      "y": 90
+    }
+  }
+}

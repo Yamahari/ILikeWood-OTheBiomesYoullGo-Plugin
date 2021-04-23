@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_holly_log"
+  },
+  "result": "ilikewood:stripped_holly_post",
+  "count": 2
+}

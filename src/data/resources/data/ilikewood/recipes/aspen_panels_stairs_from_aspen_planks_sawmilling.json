@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:aspen_planks"
+  },
+  "result": "ilikewood:aspen_panels_stairs",
+  "count": 1
+}

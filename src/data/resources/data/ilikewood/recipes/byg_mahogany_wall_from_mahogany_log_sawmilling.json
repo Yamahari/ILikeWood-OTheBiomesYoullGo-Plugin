@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:mahogany_log"
+  },
+  "result": "ilikewood:byg_mahogany_wall",
+  "count": 1
+}

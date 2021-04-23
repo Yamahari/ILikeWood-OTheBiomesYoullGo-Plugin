@@ -1,0 +1,7 @@
+{
+  "parent": "ilikewood:block/wall/inventory/template",
+  "textures": {
+    "post": "byg:block/sythian_stem",
+    "side": "byg:block/stripped_sythian_stem"
+  }
+}

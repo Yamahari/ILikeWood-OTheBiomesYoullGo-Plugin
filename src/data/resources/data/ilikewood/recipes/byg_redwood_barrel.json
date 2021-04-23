@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "barrels",
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "key": {
+    "P": {
+      "item": "ilikewood:byg_redwood_panels"
+    },
+    "S": {
+      "item": "ilikewood:byg_redwood_panels_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:byg_redwood_barrel"
+  }
+}

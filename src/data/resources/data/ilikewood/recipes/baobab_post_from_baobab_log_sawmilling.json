@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:baobab_log"
+  },
+  "result": "ilikewood:baobab_post",
+  "count": 2
+}

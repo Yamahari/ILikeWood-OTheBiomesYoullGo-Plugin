@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_ebony_log"
+  },
+  "result": "ilikewood:ebony_panels",
+  "count": 4
+}

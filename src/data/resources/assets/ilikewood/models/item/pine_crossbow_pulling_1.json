@@ -1,0 +1,6 @@
+{
+  "parent": "ilikewood:item/pine_crossbow",
+  "textures": {
+    "layer0": "ilikewood:item/crossbow/pulling/1/pine"
+  }
+}

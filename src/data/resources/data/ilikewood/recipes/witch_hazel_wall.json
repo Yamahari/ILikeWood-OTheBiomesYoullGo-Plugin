@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "walls",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:witch_hazel_log"
+    }
+  },
+  "result": {
+    "item": "ilikewood:witch_hazel_wall",
+    "count": 6
+  }
+}

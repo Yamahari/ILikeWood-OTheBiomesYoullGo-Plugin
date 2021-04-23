@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "ilikewood:block/panels/slab/top/holly"
+    },
+    "type=bottom": {
+      "model": "ilikewood:block/panels/slab/holly"
+    },
+    "type=double": {
+      "model": "ilikewood:block/panels/holly"
+    }
+  }
+}

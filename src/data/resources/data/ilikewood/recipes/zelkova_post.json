@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "posts",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:zelkova_log"
+    }
+  },
+  "result": {
+    "item": "ilikewood:zelkova_post",
+    "count": 6
+  }
+}

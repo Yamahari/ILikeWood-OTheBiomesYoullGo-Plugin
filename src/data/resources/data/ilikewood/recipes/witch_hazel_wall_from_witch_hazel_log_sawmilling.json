@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:witch_hazel_log"
+  },
+  "result": "ilikewood:witch_hazel_wall",
+  "count": 1
+}

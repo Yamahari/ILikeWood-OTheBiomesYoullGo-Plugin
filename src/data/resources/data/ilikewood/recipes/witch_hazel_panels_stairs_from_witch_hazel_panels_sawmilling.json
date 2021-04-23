@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "ilikewood:witch_hazel_panels"
+  },
+  "result": "ilikewood:witch_hazel_panels_stairs",
+  "count": 1
+}

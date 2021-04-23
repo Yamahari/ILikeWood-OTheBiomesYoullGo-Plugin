@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_mahogany_log"
+  },
+  "result": "ilikewood:byg_mahogany_panels",
+  "count": 4
+}

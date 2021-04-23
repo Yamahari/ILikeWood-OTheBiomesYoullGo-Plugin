@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "ilikewood:imparius_panels_from_air_sawmilling"
+    ]
+  },
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:air"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "ilikewood:imparius_panels_from_air_sawmilling"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log",
+      "has_the_recipe"
+    ]
+  ]
+}

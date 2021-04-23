@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:ether_planks"
+  },
+  "result": "ilikewood:ether_panels",
+  "count": 1
+}

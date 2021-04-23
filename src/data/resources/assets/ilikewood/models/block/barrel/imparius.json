@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "ilikewood:block/barrel/side/imparius",
+    "bottom": "ilikewood:block/barrel/bottom/imparius",
+    "top": "ilikewood:block/barrel/top/imparius"
+  }
+}

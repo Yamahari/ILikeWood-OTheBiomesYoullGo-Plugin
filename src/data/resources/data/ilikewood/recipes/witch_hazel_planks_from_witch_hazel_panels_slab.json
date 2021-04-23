@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ilikewood:planks",
+  "pattern": [
+    "S",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "ilikewood:witch_hazel_panels_slab"
+    }
+  },
+  "result": {
+    "item": "byg:witch_hazel_planks"
+  }
+}

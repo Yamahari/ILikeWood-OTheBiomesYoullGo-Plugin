@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "ilikewood:byg_mahogany_panels"
+  },
+  "result": "ilikewood:byg_mahogany_panels_slab",
+  "count": 2
+}

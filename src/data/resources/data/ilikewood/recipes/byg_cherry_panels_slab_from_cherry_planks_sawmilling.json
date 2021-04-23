@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:cherry_planks"
+  },
+  "result": "ilikewood:byg_cherry_panels_slab",
+  "count": 2
+}

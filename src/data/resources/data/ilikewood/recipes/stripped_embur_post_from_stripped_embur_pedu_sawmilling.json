@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_embur_pedu"
+  },
+  "result": "ilikewood:stripped_embur_post",
+  "count": 2
+}

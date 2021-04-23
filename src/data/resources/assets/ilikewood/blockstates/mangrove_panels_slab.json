@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "ilikewood:block/panels/slab/top/mangrove"
+    },
+    "type=bottom": {
+      "model": "ilikewood:block/panels/slab/mangrove"
+    },
+    "type=double": {
+      "model": "ilikewood:block/panels/mangrove"
+    }
+  }
+}

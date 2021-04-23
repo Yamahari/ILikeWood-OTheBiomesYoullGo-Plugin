@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "ilikewood:rainbow_eucalyptus_panels"
+  },
+  "result": "ilikewood:rainbow_eucalyptus_panels_stairs",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_redwood_log"
+  },
+  "result": "ilikewood:byg_redwood_panels",
+  "count": 4
+}

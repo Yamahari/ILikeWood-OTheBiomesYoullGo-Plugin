@@ -1,0 +1,6 @@
+{
+  "parent": "ilikewood:item/green_enchanted_fishing_rod",
+  "textures": {
+    "layer0": "ilikewood:item/fishing_rod/cast/green_enchanted"
+  }
+}

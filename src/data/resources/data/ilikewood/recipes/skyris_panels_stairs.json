@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "panels",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ilikewood:skyris_panels"
+    }
+  },
+  "result": {
+    "item": "ilikewood:skyris_panels_stairs",
+    "count": 4
+  }
+}

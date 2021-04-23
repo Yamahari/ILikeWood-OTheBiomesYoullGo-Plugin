@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_witch_hazel_log"
+  },
+  "result": "ilikewood:witch_hazel_panels",
+  "count": 4
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "ilikewood:block/sawmill/bottom/left/template",
+  "textures": {
+    "log_end": "byg:block/baobab_log_top",
+    "log_side": "byg:block/baobab_log",
+    "stripped_log_side": "byg:block/stripped_baobab_log",
+    "log_pile": "ilikewood:block/log_pile/baobab"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "ilikewood:item/blue_enchanted_crossbow",
+  "textures": {
+    "layer0": "ilikewood:item/crossbow/pulling/2/blue_enchanted"
+  }
+}

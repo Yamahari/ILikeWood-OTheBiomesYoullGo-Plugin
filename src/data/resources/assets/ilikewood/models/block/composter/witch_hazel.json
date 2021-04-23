@@ -1,0 +1,8 @@
+{
+  "parent": "ilikewood:block/composter/template",
+  "textures": {
+    "top": "ilikewood:block/composter/top/witch_hazel",
+    "side": "ilikewood:block/composter/side/witch_hazel",
+    "bottom": "ilikewood:block/composter/bottom/witch_hazel"
+  }
+}

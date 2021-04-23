@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:nightshade_log"
+  },
+  "result": "ilikewood:nightshade_wall",
+  "count": 1
+}

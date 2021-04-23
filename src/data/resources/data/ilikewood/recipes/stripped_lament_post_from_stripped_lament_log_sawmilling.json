@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_lament_log"
+  },
+  "result": "ilikewood:stripped_lament_post",
+  "count": 2
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "ilikewood:block/wall/inventory/template",
+  "textures": {
+    "post": "byg:block/embur_pedu",
+    "side": "byg:block/stripped_embur_pedu"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "ilikewood:block/sawmill/top/left/template",
+  "textures": {
+    "planks": "byg:block/zelkova_planks"
+  }
+}

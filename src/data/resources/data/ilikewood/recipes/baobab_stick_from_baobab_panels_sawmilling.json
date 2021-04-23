@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "ilikewood:baobab_panels"
+  },
+  "result": "ilikewood:baobab_stick",
+  "count": 2
+}

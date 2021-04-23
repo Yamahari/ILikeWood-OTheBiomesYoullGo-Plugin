@@ -1,0 +1,9 @@
+{
+  "parent": "ilikewood:block/bed/head/template",
+  "textures": {
+    "planks": "byg:block/zelkova_planks",
+    "frame": "ilikewood:block/bed/frame/zelkova",
+    "top": "ilikewood:block/bed/sheets/head/top/white",
+    "sides": "ilikewood:block/bed/sheets/head/sides/white"
+  }
+}

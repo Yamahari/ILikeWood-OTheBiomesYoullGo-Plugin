@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "panels",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:zelkova_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:zelkova_panels"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:zelkova_planks"
+  },
+  "result": "ilikewood:zelkova_panels_slab",
+  "count": 2
+}

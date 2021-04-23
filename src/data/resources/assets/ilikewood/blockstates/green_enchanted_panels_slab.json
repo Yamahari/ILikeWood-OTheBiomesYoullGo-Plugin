@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "ilikewood:block/panels/slab/top/green_enchanted"
+    },
+    "type=bottom": {
+      "model": "ilikewood:block/panels/slab/green_enchanted"
+    },
+    "type=double": {
+      "model": "ilikewood:block/panels/green_enchanted"
+    }
+  }
+}

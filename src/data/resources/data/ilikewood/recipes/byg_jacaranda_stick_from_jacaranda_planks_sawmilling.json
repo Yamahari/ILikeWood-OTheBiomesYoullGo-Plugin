@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:jacaranda_planks"
+  },
+  "result": "ilikewood:byg_jacaranda_stick",
+  "count": 2
+}

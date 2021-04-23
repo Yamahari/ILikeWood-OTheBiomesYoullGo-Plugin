@@ -1,0 +1,8 @@
+{
+  "parent": "ilikewood:block/composter/template",
+  "textures": {
+    "top": "ilikewood:block/composter/top/skyris",
+    "side": "ilikewood:block/composter/side/skyris",
+    "bottom": "ilikewood:block/composter/bottom/skyris"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sticks",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "ilikewood:baobab_panels"
+    }
+  },
+  "result": {
+    "item": "ilikewood:baobab_stick",
+    "count": 4
+  }
+}

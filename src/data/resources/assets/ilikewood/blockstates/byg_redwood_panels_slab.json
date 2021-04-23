@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "ilikewood:block/panels/slab/top/byg_redwood"
+    },
+    "type=bottom": {
+      "model": "ilikewood:block/panels/slab/byg_redwood"
+    },
+    "type=double": {
+      "model": "ilikewood:block/panels/byg_redwood"
+    }
+  }
+}

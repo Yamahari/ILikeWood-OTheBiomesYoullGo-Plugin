@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:aspen_log"
+  },
+  "result": "ilikewood:aspen_post",
+  "count": 2
+}

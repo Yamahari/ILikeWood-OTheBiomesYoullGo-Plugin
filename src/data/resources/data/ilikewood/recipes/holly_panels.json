@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "panels",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:holly_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:holly_panels"
+  }
+}

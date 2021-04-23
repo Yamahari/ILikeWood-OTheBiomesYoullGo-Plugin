@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "ilikewood:mangrove_panels"
+  },
+  "result": "ilikewood:mangrove_stick",
+  "count": 2
+}

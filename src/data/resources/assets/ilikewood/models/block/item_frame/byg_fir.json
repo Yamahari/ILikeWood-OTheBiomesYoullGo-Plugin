@@ -1,0 +1,6 @@
+{
+  "parent": "ilikewood:block/item_frame/template",
+  "textures": {
+    "planks": "byg:block/fir_planks"
+  }
+}

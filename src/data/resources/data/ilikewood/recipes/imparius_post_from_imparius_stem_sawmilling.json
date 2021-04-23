@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:imparius_stem"
+  },
+  "result": "ilikewood:imparius_post",
+  "count": 2
+}

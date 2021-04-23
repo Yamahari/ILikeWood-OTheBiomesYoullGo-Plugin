@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:pine_planks"
+  },
+  "result": "ilikewood:pine_panels_slab",
+  "count": 2
+}

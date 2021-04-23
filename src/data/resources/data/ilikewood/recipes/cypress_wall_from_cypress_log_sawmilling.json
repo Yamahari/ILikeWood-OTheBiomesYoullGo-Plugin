@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:cypress_log"
+  },
+  "result": "ilikewood:cypress_wall",
+  "count": 1
+}

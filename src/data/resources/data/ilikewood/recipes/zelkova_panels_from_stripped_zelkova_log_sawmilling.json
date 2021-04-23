@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_zelkova_log"
+  },
+  "result": "ilikewood:zelkova_panels",
+  "count": 4
+}

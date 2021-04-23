@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ilikewood:planks",
+  "pattern": [
+    "S",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "ilikewood:lament_panels_slab"
+    }
+  },
+  "result": {
+    "item": "byg:lament_planks"
+  }
+}

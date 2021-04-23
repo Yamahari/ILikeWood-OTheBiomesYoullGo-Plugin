@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_cika_log"
+  },
+  "result": "ilikewood:stripped_cika_post",
+  "count": 2
+}

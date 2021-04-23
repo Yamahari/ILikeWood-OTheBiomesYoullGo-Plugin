@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "ilikewood:sythian_stick"
+    ]
+  },
+  "criteria": {
+    "has_panels": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ilikewood:sythian_panels"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "ilikewood:sythian_stick"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_panels",
+      "has_the_recipe"
+    ]
+  ]
+}

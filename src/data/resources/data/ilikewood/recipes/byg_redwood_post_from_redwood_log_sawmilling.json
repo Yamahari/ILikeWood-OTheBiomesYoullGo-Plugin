@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:redwood_log"
+  },
+  "result": "ilikewood:byg_redwood_post",
+  "count": 2
+}

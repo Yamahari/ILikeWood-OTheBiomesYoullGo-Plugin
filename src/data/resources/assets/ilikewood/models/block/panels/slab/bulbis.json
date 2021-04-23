@@ -1,0 +1,6 @@
+{
+  "parent": "ilikewood:block/panels/slab/template",
+  "textures": {
+    "planks": "byg:block/bulbis_planks"
+  }
+}

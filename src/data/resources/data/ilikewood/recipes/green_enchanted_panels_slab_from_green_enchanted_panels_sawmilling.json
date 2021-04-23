@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "ilikewood:green_enchanted_panels"
+  },
+  "result": "ilikewood:green_enchanted_panels_slab",
+  "count": 2
+}

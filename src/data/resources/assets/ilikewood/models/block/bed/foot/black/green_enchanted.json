@@ -1,0 +1,9 @@
+{
+  "parent": "ilikewood:block/bed/foot/template",
+  "textures": {
+    "planks": "byg:block/green_enchanted_planks",
+    "frame": "ilikewood:block/bed/frame/green_enchanted",
+    "top": "ilikewood:block/bed/sheets/foot/top/black",
+    "sides": "ilikewood:block/bed/sheets/foot/sides/black"
+  }
+}

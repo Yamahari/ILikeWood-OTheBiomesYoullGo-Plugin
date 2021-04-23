@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:pine_log"
+  },
+  "result": "ilikewood:pine_post",
+  "count": 2
+}

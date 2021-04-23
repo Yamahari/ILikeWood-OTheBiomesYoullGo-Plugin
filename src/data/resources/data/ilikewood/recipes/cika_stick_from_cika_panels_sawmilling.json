@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "ilikewood:cika_panels"
+  },
+  "result": "ilikewood:cika_stick",
+  "count": 2
+}

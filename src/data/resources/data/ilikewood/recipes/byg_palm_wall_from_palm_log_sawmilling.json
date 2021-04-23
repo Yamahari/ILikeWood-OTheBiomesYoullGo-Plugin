@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:palm_log"
+  },
+  "result": "ilikewood:byg_palm_wall",
+  "count": 1
+}

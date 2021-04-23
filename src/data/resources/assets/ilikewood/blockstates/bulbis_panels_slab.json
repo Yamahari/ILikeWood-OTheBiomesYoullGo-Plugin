@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "ilikewood:block/panels/slab/top/bulbis"
+    },
+    "type=bottom": {
+      "model": "ilikewood:block/panels/slab/bulbis"
+    },
+    "type=double": {
+      "model": "ilikewood:block/panels/bulbis"
+    }
+  }
+}

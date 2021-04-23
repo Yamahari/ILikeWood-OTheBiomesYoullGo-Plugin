@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:baobab_planks"
+  },
+  "result": "ilikewood:baobab_panels_slab",
+  "count": 2
+}

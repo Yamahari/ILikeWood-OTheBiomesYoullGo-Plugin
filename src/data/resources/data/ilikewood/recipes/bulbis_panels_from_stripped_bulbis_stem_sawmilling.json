@@ -1,0 +1,8 @@
+{
+  "type": "ilikewood:sawmilling",
+  "ingredient": {
+    "item": "byg:stripped_bulbis_stem"
+  },
+  "result": "ilikewood:bulbis_panels",
+  "count": 4
+}

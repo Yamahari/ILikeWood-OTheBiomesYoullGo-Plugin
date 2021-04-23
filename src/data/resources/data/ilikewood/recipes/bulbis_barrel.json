@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "barrels",
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "key": {
+    "P": {
+      "item": "ilikewood:bulbis_panels"
+    },
+    "S": {
+      "item": "ilikewood:bulbis_panels_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:bulbis_barrel"
+  }
+}

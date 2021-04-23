@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "ilikewood:block/panels/slab/top/witch_hazel"
+    },
+    "type=bottom": {
+      "model": "ilikewood:block/panels/slab/witch_hazel"
+    },
+    "type=double": {
+      "model": "ilikewood:block/panels/witch_hazel"
+    }
+  }
+}

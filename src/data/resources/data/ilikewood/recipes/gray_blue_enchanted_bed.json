@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "beds",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gray_wool"
+    },
+    "X": {
+      "item": "ilikewood:blue_enchanted_panels"
+    }
+  },
+  "result": {
+    "item": "ilikewood:gray_blue_enchanted_bed"
+  }
+}

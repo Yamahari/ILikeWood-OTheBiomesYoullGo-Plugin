@@ -1,0 +1,9 @@
+{
+  "parent": "ilikewood:block/bed/head/template",
+  "textures": {
+    "planks": "byg:block/witch_hazel_planks",
+    "frame": "ilikewood:block/bed/frame/witch_hazel",
+    "top": "ilikewood:block/bed/sheets/head/top/purple",
+    "sides": "ilikewood:block/bed/sheets/head/sides/purple"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "ilikewood:block/lectern/template",
+  "textures": {
+    "top": "ilikewood:block/lectern/top/ether",
+    "sides": "ilikewood:block/lectern/sides/ether",
+    "bottom": "byg:block/ether_planks",
+    "base": "ilikewood:block/lectern/base/ether",
+    "front": "ilikewood:block/lectern/front/ether"
+  }
+}

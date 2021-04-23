@@ -1,0 +1,6 @@
+{
+  "parent": "ilikewood:item/byg_jacaranda_fishing_rod",
+  "textures": {
+    "layer0": "ilikewood:item/fishing_rod/cast/byg_jacaranda"
+  }
+}

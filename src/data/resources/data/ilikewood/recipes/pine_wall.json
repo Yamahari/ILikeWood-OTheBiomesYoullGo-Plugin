@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "walls",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:pine_log"
+    }
+  },
+  "result": {
+    "item": "ilikewood:pine_wall",
+    "count": 6
+  }
+}
