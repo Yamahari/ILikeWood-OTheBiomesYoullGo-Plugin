@@ -1,13 +1,13 @@
 modLoader = "javafml" #mandatory
 loaderVersion = "[36.1.0,)" #mandatory
 license = "MIT"
-issueTrackerURL = "https://github.com/Yamahari/ILikeWood-BiomesOPlenty-Plugin/issues" #optional
+issueTrackerURL = "https://github.com/Yamahari/ILikeWood-OTheBiomesYoullGo-Plugin/issues" #optional
 
 [[mods]] #mandatory
 modId = "ilikewoodxbyg" #mandatory
 version = "1.16.5-6.3.0.0" #mandatory
 displayName = "I Like Wood - Oh The Biomes You'll Go Plugin" #mandatory
-displayURL = "https://www.curseforge.com/minecraft/mc-mods/i-like-wood-biomes-o-plenty-plugin" #optional
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/i-like-wood-oh-the-biomes-youll-go-plugin" #optional
 logoFile = "logo.png" #optional
 credits = "Yamahari and the people of Forge" #optional
 authors = "Yamahari" #optional
