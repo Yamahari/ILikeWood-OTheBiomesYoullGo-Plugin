@@ -1,0 +1,7 @@
+{
+  "parent": "ilikewood:block/chair/template",
+  "textures": {
+    "stripped_log_side": "byg:block/stripped_rainbow_eucalyptus_log",
+    "stripped_log_end": "byg:block/stripped_rainbow_eucalyptus_log_top"
+  }
+}

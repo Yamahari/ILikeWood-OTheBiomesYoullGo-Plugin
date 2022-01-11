@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "ilikewood:embur_panels"
+            "items": [
+              "ilikewood:embur_panels"
+            ]
           }
         ]
       }

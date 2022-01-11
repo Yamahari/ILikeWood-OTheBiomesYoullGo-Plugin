@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "byg:bulbis_stem"
+            "items": [
+              "byg:bulbis_stem"
+            ]
           }
         ]
       }

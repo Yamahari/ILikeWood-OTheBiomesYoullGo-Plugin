@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "ilikewood:green_enchanted_panels"
+            "items": [
+              "ilikewood:green_enchanted_panels"
+            ]
           }
         ]
       }

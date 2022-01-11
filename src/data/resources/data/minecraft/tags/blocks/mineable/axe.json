@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "#ilikewood:panels",
+    "#ilikewood:panels_slab",
+    "#ilikewood:panels_stairs",
+    "#ilikewood:barrels",
+    "#ilikewood:chests",
+    "#ilikewood:composter",
+    "#ilikewood:bookshelfs",
+    "#ilikewood:walls",
+    "#ilikewood:ladders",
+    "#ilikewood:crafting_tables",
+    "#ilikewood:scaffoldings",
+    "#ilikewood:lecterns",
+    "#ilikewood:posts",
+    "#ilikewood:stripped_posts",
+    "#ilikewood:beds",
+    "#ilikewood:sawmills",
+    "#ilikewood:chairs",
+    "#ilikewood:tables"
+  ]
+}

@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "ilikewood:imparius_stick"
+            "items": [
+              "ilikewood:imparius_stick"
+            ]
           }
         ]
       }

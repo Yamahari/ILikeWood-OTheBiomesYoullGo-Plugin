@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "byg:redwood_log"
+            "items": [
+              "byg:redwood_log"
+            ]
           }
         ]
       }

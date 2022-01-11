@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tables",
+  "pattern": [
+    "###",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:jacaranda_log"
+    },
+    "I": {
+      "item": "ilikewood:stripped_byg_jacaranda_post"
+    }
+  },
+  "result": {
+    "item": "ilikewood:byg_jacaranda_table",
+    "count": 3
+  }
+}

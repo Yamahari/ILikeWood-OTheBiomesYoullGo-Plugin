@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "byg:willow_log"
+            "items": [
+              "byg:willow_log"
+            ]
           }
         ]
       }

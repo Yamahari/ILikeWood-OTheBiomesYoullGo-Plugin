@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tables",
+  "pattern": [
+    "###",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:cherry_log"
+    },
+    "I": {
+      "item": "ilikewood:stripped_byg_cherry_post"
+    }
+  },
+  "result": {
+    "item": "ilikewood:byg_cherry_table",
+    "count": 3
+  }
+}

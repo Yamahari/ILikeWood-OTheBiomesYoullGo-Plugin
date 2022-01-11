@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "byg:skyris_log"
+            "items": [
+              "byg:skyris_log"
+            ]
           }
         ]
       }

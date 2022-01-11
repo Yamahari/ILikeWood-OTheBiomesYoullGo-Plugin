@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "ilikewood:green_enchanted_chair"
+    ]
+  },
+  "criteria": {
+    "has_stripped_post": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ilikewood:stripped_green_enchanted_post"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "ilikewood:green_enchanted_chair"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_post",
+      "has_the_recipe"
+    ]
+  ]
+}

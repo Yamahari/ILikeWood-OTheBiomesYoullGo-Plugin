@@ -1,33 +1,6 @@
 {
   "replace": false,
   "values": [
-    "ilikewood:aspen_wall",
-    "ilikewood:baobab_wall",
-    "ilikewood:blue_enchanted_wall",
-    "ilikewood:bulbis_wall",
-    "ilikewood:byg_cherry_wall",
-    "ilikewood:cika_wall",
-    "ilikewood:cypress_wall",
-    "ilikewood:ebony_wall",
-    "ilikewood:embur_wall",
-    "ilikewood:ether_wall",
-    "ilikewood:byg_fir_wall",
-    "ilikewood:green_enchanted_wall",
-    "ilikewood:holly_wall",
-    "ilikewood:byg_jacaranda_wall",
-    "ilikewood:lament_wall",
-    "ilikewood:byg_mahogany_wall",
-    "ilikewood:mangrove_wall",
-    "ilikewood:maple_wall",
-    "ilikewood:nightshade_wall",
-    "ilikewood:byg_palm_wall",
-    "ilikewood:pine_wall",
-    "ilikewood:rainbow_eucalyptus_wall",
-    "ilikewood:byg_redwood_wall",
-    "ilikewood:skyris_wall",
-    "ilikewood:sythian_wall",
-    "ilikewood:byg_willow_wall",
-    "ilikewood:witch_hazel_wall",
-    "ilikewood:zelkova_wall"
+    "#ilikewood:walls"
   ]
 }

@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "byg:maple_log"
+            "items": [
+              "byg:maple_log"
+            ]
           }
         ]
       }

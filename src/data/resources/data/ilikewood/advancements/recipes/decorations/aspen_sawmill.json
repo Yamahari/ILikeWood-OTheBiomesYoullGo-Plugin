@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "ilikewood:aspen_panels"
+            "items": [
+              "ilikewood:aspen_panels"
+            ]
           }
         ]
       }

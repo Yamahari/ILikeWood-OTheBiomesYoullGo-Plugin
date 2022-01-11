@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "ilikewood:rainbow_eucalyptus_panels_slab"
+            "items": [
+              "ilikewood:rainbow_eucalyptus_panels_slab"
+            ]
           }
         ]
       }

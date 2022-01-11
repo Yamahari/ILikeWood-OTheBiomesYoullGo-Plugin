@@ -1,0 +1,7 @@
+{
+  "parent": "ilikewood:block/table/leg/template",
+  "textures": {
+    "log_end": "byg:block/maple_log_top",
+    "stripped_log_side": "byg:block/stripped_maple_log"
+  }
+}

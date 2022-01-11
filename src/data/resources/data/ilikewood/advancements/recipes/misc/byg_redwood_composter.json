@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "ilikewood:byg_redwood_panels_slab"
+            "items": [
+              "ilikewood:byg_redwood_panels_slab"
+            ]
           }
         ]
       }

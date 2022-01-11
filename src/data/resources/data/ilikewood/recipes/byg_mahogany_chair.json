@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chairs",
+  "pattern": [
+    "I I",
+    "I#I",
+    "I I"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:stripped_mahogany_log"
+    },
+    "I": {
+      "item": "ilikewood:stripped_byg_mahogany_post"
+    }
+  },
+  "result": {
+    "item": "ilikewood:byg_mahogany_chair",
+    "count": 3
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tables",
+  "pattern": [
+    "###",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:cypress_log"
+    },
+    "I": {
+      "item": "ilikewood:stripped_cypress_post"
+    }
+  },
+  "result": {
+    "item": "ilikewood:cypress_table",
+    "count": 3
+  }
+}

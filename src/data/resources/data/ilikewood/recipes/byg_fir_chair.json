@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chairs",
+  "pattern": [
+    "I I",
+    "I#I",
+    "I I"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:stripped_fir_log"
+    },
+    "I": {
+      "item": "ilikewood:stripped_byg_fir_post"
+    }
+  },
+  "result": {
+    "item": "ilikewood:byg_fir_chair",
+    "count": 3
+  }
+}

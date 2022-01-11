@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tables",
+  "pattern": [
+    "###",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:mangrove_log"
+    },
+    "I": {
+      "item": "ilikewood:stripped_mangrove_post"
+    }
+  },
+  "result": {
+    "item": "ilikewood:mangrove_table",
+    "count": 3
+  }
+}
