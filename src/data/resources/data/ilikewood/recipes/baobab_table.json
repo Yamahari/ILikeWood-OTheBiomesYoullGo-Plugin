@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tables",
+  "pattern": [
+    "###",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:baobab_log"
+    },
+    "I": {
+      "item": "ilikewood:stripped_baobab_post"
+    }
+  },
+  "result": {
+    "item": "ilikewood:baobab_table",
+    "count": 3
+  }
+}

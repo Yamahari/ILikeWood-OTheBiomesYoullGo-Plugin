@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "byg:stripped_bulbis_stem"
+            "items": [
+              "byg:stripped_bulbis_stem"
+            ]
           }
         ]
       }

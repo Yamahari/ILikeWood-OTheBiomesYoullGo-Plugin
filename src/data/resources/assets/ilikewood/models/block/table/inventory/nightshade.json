@@ -1,0 +1,8 @@
+{
+  "parent": "ilikewood:block/table/inventory/template",
+  "textures": {
+    "log_end": "byg:block/nightshade_log_top",
+    "log_side": "byg:block/nightshade_log",
+    "stripped_log_side": "byg:block/stripped_nightshade_log"
+  }
+}

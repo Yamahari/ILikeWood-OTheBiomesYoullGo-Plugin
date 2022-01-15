@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "byg:stripped_baobab_log"
+            "items": [
+              "byg:stripped_baobab_log"
+            ]
           }
         ]
       }

@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "byg:holly_log"
+            "items": [
+              "byg:holly_log"
+            ]
           }
         ]
       }

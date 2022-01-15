@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "byg:ether_log"
+            "items": [
+              "byg:ether_log"
+            ]
           }
         ]
       }

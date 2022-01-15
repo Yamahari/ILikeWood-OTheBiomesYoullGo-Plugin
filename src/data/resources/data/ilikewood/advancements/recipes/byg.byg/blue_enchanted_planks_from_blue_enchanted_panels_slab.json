@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "ilikewood:blue_enchanted_planks_from_blue_enchanted_panels_slab"
+    ]
+  },
+  "criteria": {
+    "has_panels_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ilikewood:blue_enchanted_panels_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "ilikewood:blue_enchanted_planks_from_blue_enchanted_panels_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_panels_slab",
+      "has_the_recipe"
+    ]
+  ]
+}

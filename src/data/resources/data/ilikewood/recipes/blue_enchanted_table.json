@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tables",
+  "pattern": [
+    "###",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:blue_enchanted_log"
+    },
+    "I": {
+      "item": "ilikewood:stripped_blue_enchanted_post"
+    }
+  },
+  "result": {
+    "item": "ilikewood:blue_enchanted_table",
+    "count": 3
+  }
+}

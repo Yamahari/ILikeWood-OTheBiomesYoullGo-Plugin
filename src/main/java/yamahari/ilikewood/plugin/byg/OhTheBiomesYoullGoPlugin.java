@@ -1,6 +1,6 @@
 package yamahari.ilikewood.plugin.byg;
 
-import net.minecraft.block.Block;
+import net.minecraft.world.level.block.Block;
 import yamahari.ilikewood.ILikeWoodPlugin;
 import yamahari.ilikewood.IModPlugin;
 import yamahari.ilikewood.plugin.byg.util.Constants;

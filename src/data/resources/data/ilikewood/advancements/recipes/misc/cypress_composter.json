@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "ilikewood:cypress_panels_slab"
+            "items": [
+              "ilikewood:cypress_panels_slab"
+            ]
           }
         ]
       }

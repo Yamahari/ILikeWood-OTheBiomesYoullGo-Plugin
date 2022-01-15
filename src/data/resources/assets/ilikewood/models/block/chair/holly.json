@@ -1,0 +1,7 @@
+{
+  "parent": "ilikewood:block/chair/template",
+  "textures": {
+    "stripped_log_side": "byg:block/stripped_holly_log",
+    "stripped_log_end": "byg:block/stripped_holly_log_top"
+  }
+}

@@ -1,6 +1,7 @@
 package yamahari.ilikewood.plugin.byg.util;
 
 import yamahari.ilikewood.registry.objecttype.WoodenBlockType;
+import yamahari.ilikewood.registry.objecttype.WoodenEntityType;
 import yamahari.ilikewood.registry.objecttype.WoodenItemType;
 import yamahari.ilikewood.registry.objecttype.WoodenTieredItemType;
 import yamahari.ilikewood.registry.woodtype.DefaultWoodType;
@@ -59,6 +60,8 @@ public class WoodType implements IWoodType {
         blockTypes.add(WoodenBlockType.POST);
         blockTypes.add(WoodenBlockType.STRIPPED_POST);
         blockTypes.add(WoodenBlockType.WALL);
+        blockTypes.add(WoodenBlockType.CHAIR);
+        blockTypes.add(WoodenBlockType.TABLE);
 
         return Collections.unmodifiableSet(blockTypes);
     }
@@ -135,6 +138,11 @@ public class WoodType implements IWoodType {
     @Override
     public Set<WoodenItemType> getItemTypes() {
         return DefaultWoodType.DEFAULT_ITEM_TYPES;
+    }
+
+    @Override
+    public Set<WoodenEntityType> getEntityTypes() {
+        return DefaultWoodType.DEFAULT_ENTITY_TYPES;
     }
 
     @Override

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "ilikewood:aspen_table"
+    ]
+  },
+  "criteria": {
+    "has_stripped_post": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ilikewood:stripped_aspen_post"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "ilikewood:aspen_table"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_post",
+      "has_the_recipe"
+    ]
+  ]
+}

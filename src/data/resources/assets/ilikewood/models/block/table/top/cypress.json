@@ -1,0 +1,7 @@
+{
+  "parent": "ilikewood:block/table/top/template",
+  "textures": {
+    "log_end": "byg:block/cypress_log_top",
+    "log_side": "byg:block/cypress_log"
+  }
+}

@@ -1,6 +1,6 @@
 package yamahari.ilikewood.plugin.byg;
 
-import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.world.item.crafting.Ingredient;
 import yamahari.ilikewood.plugin.byg.util.Constants;
 import yamahari.ilikewood.registry.objecttype.WoodenBlockType;
 import yamahari.ilikewood.registry.woodenitemtier.DefaultWoodenItemTier;
@@ -62,7 +62,7 @@ public final class OhTheBiomesYoullGoWoodenItemTiers {
         return new DefaultWoodenItemTier(woodType,
             Constants.BYG_MOD_ID,
             name,
-            () -> Ingredient.fromItems(OhTheBiomesYoullGoPlugin.BLOCK_REGISTRY.getObject(woodType,
+            () -> Ingredient.of(OhTheBiomesYoullGoPlugin.BLOCK_REGISTRY.getObject(woodType,
                 WoodenBlockType.PANELS)));
     }
 

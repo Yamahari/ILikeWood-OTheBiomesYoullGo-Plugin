@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "ilikewood:bulbis_panels"
+            "items": [
+              "ilikewood:bulbis_panels"
+            ]
           }
         ]
       }

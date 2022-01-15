@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "byg:pine_log"
+            "items": [
+              "byg:pine_log"
+            ]
           }
         ]
       }

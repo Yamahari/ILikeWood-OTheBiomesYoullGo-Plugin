@@ -1,11 +1,11 @@
 buildscript {
     repositories {
-        maven { url = 'https://files.minecraftforge.net/maven' }
-        jcenter()
+        // These repositories are only for Gradle plugins, put any other repositories in the repository block further below
+        maven { url = 'https://maven.minecraftforge.net' }
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
@@ -13,13 +13,11 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.16.5-6.3.0.0'
+version = "${version_mc}-${version_major}.${version_minor}.${version_patch}"
 group = 'yamahari.ilikewoodxbyg' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'ilikewoodxbyg'
 
-sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
-
-println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 repositories {
     flatDir {
@@ -38,12 +36,33 @@ sourceSets {
     }
 }
 
+def replaceVersions = tasks.register('replaceVersions', Copy) {
+    it.outputs.upToDateWhen { false }
+    it.from(sourceSets.main.resources) {
+        include 'META-INF/mods.toml'
+        expand 'version': version,
+                'version_range_mc': version_range_mc,
+                'version_range_loader':  version_range_loader,
+                'version_range_forge': version_range_forge,
+                'version_range_ilw': version_range_ilw,
+                'version_range_byg': version_range_byg
+    }
+    it.into "$buildDir/resources/main/"
+}
+
 processResources {
     copy {
         from 'src/data/resources/assets/ilikewood/lang'
         into 'src/data/resources/assets/ilikewoodxbyg/lang'
     }
-    delete 'src/data/resources/assets/ilikewood/lang'
+    exclude 'META-INF/mods.toml'
+    configure {
+        finalizedBy replaceVersions
+    }
+}
+
+classes.configure {
+    dependsOn(replaceVersions)
 }
 
 configurations {
@@ -52,16 +71,16 @@ configurations {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.1.0'
+    minecraft "net.minecraftforge:forge:${version_mc}-${version_forge}"
 
-    compileOnly fg.deobf('build.libs:ilikewood:1.16.5-6.3.0.0:api')
+    compileOnly fg.deobf("build.libs:ilikewood:${version_mc}-${version_ilw}:api")
 
-    ilikewood fg.deobf('build.libs:ilikewood:1.16.5-6.3.0.0')
-    runtimeOnly fg.deobf('build.libs:byg:1.1.14')
+    ilikewood fg.deobf("build.libs:ilikewood:${version_mc}-${version_ilw}")
+    runtimeOnly fg.deobf("build.libs:byg:${version_mc}-${version_byg}")
 }
 
 minecraft {
-    mappings channel: 'snapshot', version: '20201028-1.16.3'
+    mappings channel: 'official', version: "${version_mc}"
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
     
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
@@ -104,7 +123,8 @@ minecraft {
                     '--all',
                     '--output', file('src/data/resources/'),
                     '--existing', file('src/main/resources/'),
-                    '--existing', configurations.ilikewood.asPath
+                    '--existing', configurations.ilikewood.asPath,
+                    '--existing-mod', 'byg'
             mods {
                 ilikewoodxbyg {
                     source sourceSets.main
@@ -117,35 +137,19 @@ minecraft {
 jar {
     sourceSets.main.resources {
         exclude 'assets/byg/**'
+        exclude '.cache'
     }
     manifest {
         attributes([
             "Specification-Title": "ilikewoodxbyg",
             "Specification-Vendor": "yamahari",
-            "Specification-Version": "${version}",
+            "Specification-Version": "${project.version}",
             "Implementation-Title": "ilikewoodxbyg",
-            "Implementation-Version": "${version}",
+            "Implementation-Version": "${project.version}",
             "Implementation-Vendor" :"yamahari",
-            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+            "Automatic-Module-Name": "ilikewoodxbyg"
         ])
     }
-}
-
-// Example configuration to allow publishing using the maven-publish task
-// This is the preferred method to reobfuscate your jar file
-jar.finalizedBy('reobfJar') 
-// However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing
-//publish.dependsOn('reobfJar')
-
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            artifact jar
-        }
-    }
-    repositories {
-        maven {
-            url "file:///${project.projectDir}/mcmodsrepo"
-        }
-    }
+    finalizedBy 'reobfJar'
 }

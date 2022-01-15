@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "ilikewood:rainbow_eucalyptus_stick"
+            "items": [
+              "ilikewood:rainbow_eucalyptus_stick"
+            ]
           }
         ]
       }

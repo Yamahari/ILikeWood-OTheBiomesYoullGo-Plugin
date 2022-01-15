@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "ilikewood:imparius_panels"
+            "items": [
+              "ilikewood:imparius_panels"
+            ]
           }
         ]
       }

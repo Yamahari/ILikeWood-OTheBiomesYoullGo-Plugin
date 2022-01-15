@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "byg:imparius_stem"
+            "items": [
+              "byg:imparius_stem"
+            ]
           }
         ]
       }

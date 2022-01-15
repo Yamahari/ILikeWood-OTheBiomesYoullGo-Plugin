@@ -1,10 +1,10 @@
 package yamahari.ilikewood.plugin.byg;
 
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.material.MaterialColor;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.client.model.generators.ModelProvider;
 import yamahari.ilikewood.plugin.byg.util.Constants;
 import yamahari.ilikewood.plugin.byg.util.Util;
@@ -57,10 +57,10 @@ public final class OhTheBiomesYoullGoWoodenResources {
             planks.put(woodType,
                 new WoodenPlanksResource(planksTexture,
                     planksResource,
-                    AbstractBlock.Properties
-                        .create(Material.WOOD, MaterialColor.BROWN)
+                      BlockBehaviour.Properties
+                        .of(Material.WOOD, MaterialColor.COLOR_BROWN)
                         .sound(SoundType.WOOD)
-                        .hardnessAndResistance(2.0F, 3.0F)));
+                        .strength(2.0F, 3.0F)));
 
             logs.put(woodType,
                 new WoodenLogResource(new ResourceLocation(logResource.getNamespace(),

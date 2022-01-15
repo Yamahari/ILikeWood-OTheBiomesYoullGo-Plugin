@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chairs",
+  "pattern": [
+    "I I",
+    "I#I",
+    "I I"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:stripped_embur_pedu"
+    },
+    "I": {
+      "item": "ilikewood:stripped_embur_post"
+    }
+  },
+  "result": {
+    "item": "ilikewood:embur_chair",
+    "count": 3
+  }
+}

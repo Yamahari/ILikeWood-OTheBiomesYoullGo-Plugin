@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "ilikewood:holly_chair"
+    ]
+  },
+  "criteria": {
+    "has_stripped_post": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ilikewood:stripped_holly_post"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "ilikewood:holly_chair"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_post",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chairs",
+  "pattern": [
+    "I I",
+    "I#I",
+    "I I"
+  ],
+  "key": {
+    "#": {
+      "item": "byg:stripped_nightshade_log"
+    },
+    "I": {
+      "item": "ilikewood:stripped_nightshade_post"
+    }
+  },
+  "result": {
+    "item": "ilikewood:nightshade_chair",
+    "count": 3
+  }
+}
