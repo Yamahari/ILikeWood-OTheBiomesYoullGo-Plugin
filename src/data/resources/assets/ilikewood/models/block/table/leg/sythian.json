@@ -1,7 +1,0 @@
-{
-  "parent": "ilikewood:block/table/leg/template",
-  "textures": {
-    "log_end": "byg:block/sythian_stem_top",
-    "stripped_log_side": "byg:block/stripped_sythian_stem"
-  }
-}

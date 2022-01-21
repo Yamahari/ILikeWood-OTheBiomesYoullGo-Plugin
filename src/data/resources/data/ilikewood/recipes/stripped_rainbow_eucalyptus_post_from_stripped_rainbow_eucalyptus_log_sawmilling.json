@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:stripped_rainbow_eucalyptus_log"
-  },
-  "result": "ilikewood:stripped_rainbow_eucalyptus_post",
-  "count": 2
-}

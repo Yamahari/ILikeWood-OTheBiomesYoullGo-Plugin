@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:embur_pedu"
-  },
-  "result": "ilikewood:embur_post",
-  "count": 2
-}

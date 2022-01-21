@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:lament_planks"
-  },
-  "result": "ilikewood:lament_panels",
-  "count": 1
-}

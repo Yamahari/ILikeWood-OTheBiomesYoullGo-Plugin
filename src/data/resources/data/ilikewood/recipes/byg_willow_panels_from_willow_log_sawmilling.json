@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:willow_log"
-  },
-  "result": "ilikewood:byg_willow_panels",
-  "count": 4
-}

@@ -1,9 +1,0 @@
-{
-  "parent": "ilikewood:block/bed/foot/template",
-  "textures": {
-    "planks": "byg:block/mangrove_planks",
-    "frame": "ilikewood:block/bed/frame/mangrove",
-    "top": "ilikewood:block/bed/sheets/foot/top/green",
-    "sides": "ilikewood:block/bed/sheets/foot/sides/green"
-  }
-}

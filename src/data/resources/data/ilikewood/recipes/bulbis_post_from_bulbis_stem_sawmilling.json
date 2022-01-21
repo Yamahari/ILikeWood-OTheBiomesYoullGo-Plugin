@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:bulbis_stem"
-  },
-  "result": "ilikewood:bulbis_post",
-  "count": 2
-}

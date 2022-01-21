@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "ilikewood:bulbis_panels"
-  },
-  "result": "ilikewood:bulbis_panels_stairs",
-  "count": 1
-}

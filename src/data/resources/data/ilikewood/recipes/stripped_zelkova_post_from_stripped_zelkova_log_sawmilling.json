@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:stripped_zelkova_log"
-  },
-  "result": "ilikewood:stripped_zelkova_post",
-  "count": 2
-}

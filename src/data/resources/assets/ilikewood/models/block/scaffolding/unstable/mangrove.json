@@ -1,8 +1,0 @@
-{
-  "parent": "ilikewood:block/scaffolding/unstable/template",
-  "textures": {
-    "top": "ilikewood:block/scaffolding/top/mangrove",
-    "side": "ilikewood:block/scaffolding/side/mangrove",
-    "bottom": "ilikewood:block/scaffolding/bottom/mangrove"
-  }
-}

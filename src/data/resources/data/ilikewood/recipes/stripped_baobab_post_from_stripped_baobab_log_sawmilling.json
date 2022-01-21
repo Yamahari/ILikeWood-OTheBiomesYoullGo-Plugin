@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:stripped_baobab_log"
-  },
-  "result": "ilikewood:stripped_baobab_post",
-  "count": 2
-}

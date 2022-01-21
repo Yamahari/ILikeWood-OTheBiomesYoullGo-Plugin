@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:bulbis_planks"
-  },
-  "result": "ilikewood:bulbis_panels_slab",
-  "count": 2
-}

@@ -1,9 +1,0 @@
-{
-  "parent": "ilikewood:block/sawmill/bottom/left/template",
-  "textures": {
-    "log_end": "byg:block/fir_log_top",
-    "log_side": "byg:block/fir_log",
-    "stripped_log_side": "byg:block/stripped_fir_log",
-    "log_pile": "ilikewood:block/log_pile/byg_fir"
-  }
-}

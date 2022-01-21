@@ -1,6 +1,0 @@
-{
-  "parent": "ilikewood:block/item_frame/map/template",
-  "textures": {
-    "planks": "byg:block/green_enchanted_planks"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:skyris_planks"
-  },
-  "result": "ilikewood:skyris_panels",
-  "count": 1
-}

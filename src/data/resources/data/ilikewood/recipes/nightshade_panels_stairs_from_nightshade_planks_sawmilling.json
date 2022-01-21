@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:nightshade_planks"
-  },
-  "result": "ilikewood:nightshade_panels_stairs",
-  "count": 1
-}

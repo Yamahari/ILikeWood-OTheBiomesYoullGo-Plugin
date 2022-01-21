@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:stripped_mangrove_log"
-  },
-  "result": "ilikewood:mangrove_panels",
-  "count": 4
-}

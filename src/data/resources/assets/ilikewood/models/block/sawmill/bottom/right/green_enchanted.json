@@ -1,9 +1,0 @@
-{
-  "parent": "ilikewood:block/sawmill/bottom/right/template",
-  "textures": {
-    "log_end": "byg:block/green_enchanted_log_top",
-    "log_side": "byg:block/green_enchanted_log",
-    "stripped_log_side": "byg:block/stripped_green_enchanted_log",
-    "log_pile": "ilikewood:block/log_pile/green_enchanted"
-  }
-}

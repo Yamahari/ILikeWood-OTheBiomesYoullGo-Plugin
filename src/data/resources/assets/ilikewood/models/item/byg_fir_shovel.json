@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "ilikewood:item/stick/shovel/byg_fir",
-    "layer1": "ilikewood:item/shovel/wooden/byg_fir"
-  }
-}

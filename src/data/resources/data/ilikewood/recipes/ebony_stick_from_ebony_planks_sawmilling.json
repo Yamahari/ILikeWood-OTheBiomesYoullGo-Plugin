@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:ebony_planks"
-  },
-  "result": "ilikewood:ebony_stick",
-  "count": 2
-}

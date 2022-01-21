@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:stripped_aspen_log"
-  },
-  "result": "ilikewood:aspen_panels",
-  "count": 4
-}

@@ -26,6 +26,7 @@ public class WoodType implements IWoodType {
 
     private static Set<WoodenBlockType> createBlockTypesWithStrippedLog() {
         final Set<WoodenBlockType> blockTypes = new HashSet<>();
+
         blockTypes.add(WoodenBlockType.PANELS);
         blockTypes.add(WoodenBlockType.PANELS_STAIRS);
         blockTypes.add(WoodenBlockType.PANELS_SLAB);
@@ -62,12 +63,14 @@ public class WoodType implements IWoodType {
         blockTypes.add(WoodenBlockType.WALL);
         blockTypes.add(WoodenBlockType.CHAIR);
         blockTypes.add(WoodenBlockType.TABLE);
+        blockTypes.add(WoodenBlockType.STOOL);
 
         return Collections.unmodifiableSet(blockTypes);
     }
 
     private static Set<WoodenBlockType> createBlockTypesWithoutStrippedLog() {
         final Set<WoodenBlockType> blockTypes = new HashSet<>();
+
         blockTypes.add(WoodenBlockType.PANELS);
         blockTypes.add(WoodenBlockType.PANELS_STAIRS);
         blockTypes.add(WoodenBlockType.PANELS_SLAB);
@@ -104,9 +107,11 @@ public class WoodType implements IWoodType {
 
     private static Set<WoodenBlockType> createBuiltinBlockTypesSet() {
         final Set<WoodenBlockType> builtinBlockTypes = new HashSet<>();
+
         builtinBlockTypes.add(WoodenBlockType.CRAFTING_TABLE);
         builtinBlockTypes.add(WoodenBlockType.BOOKSHELF);
         // builtinBlockTypes.add(WoodenBlockType.WALL);
+
         return Collections.unmodifiableSet(builtinBlockTypes);
     }
 

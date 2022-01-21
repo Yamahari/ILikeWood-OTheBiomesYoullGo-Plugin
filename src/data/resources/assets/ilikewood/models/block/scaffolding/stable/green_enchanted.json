@@ -1,8 +1,0 @@
-{
-  "parent": "ilikewood:block/scaffolding/stable/template",
-  "textures": {
-    "top": "ilikewood:block/scaffolding/top/green_enchanted",
-    "side": "ilikewood:block/scaffolding/side/green_enchanted",
-    "bottom": "ilikewood:block/scaffolding/bottom/green_enchanted"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:embur_planks"
-  },
-  "result": "ilikewood:embur_panels_slab",
-  "count": 2
-}

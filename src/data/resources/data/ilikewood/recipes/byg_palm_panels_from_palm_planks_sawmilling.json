@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:palm_planks"
-  },
-  "result": "ilikewood:byg_palm_panels",
-  "count": 1
-}

@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:holly_log"
-  },
-  "result": "ilikewood:holly_panels",
-  "count": 4
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "ilikewood:block/wall/inventory/template",
-  "textures": {
-    "post": "byg:block/blue_enchanted_log",
-    "side": "byg:block/stripped_blue_enchanted_log"
-  }
-}

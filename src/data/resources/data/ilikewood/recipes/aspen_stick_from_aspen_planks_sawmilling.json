@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:aspen_planks"
-  },
-  "result": "ilikewood:aspen_stick",
-  "count": 2
-}

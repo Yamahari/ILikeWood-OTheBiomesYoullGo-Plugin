@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:blue_enchanted_planks"
-  },
-  "result": "ilikewood:blue_enchanted_panels",
-  "count": 1
-}

@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:rainbow_eucalyptus_log"
-  },
-  "result": "ilikewood:rainbow_eucalyptus_panels",
-  "count": 4
-}

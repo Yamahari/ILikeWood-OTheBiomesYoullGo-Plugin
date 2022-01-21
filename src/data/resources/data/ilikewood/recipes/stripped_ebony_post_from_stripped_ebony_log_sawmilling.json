@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:stripped_ebony_log"
-  },
-  "result": "ilikewood:stripped_ebony_post",
-  "count": 2
-}

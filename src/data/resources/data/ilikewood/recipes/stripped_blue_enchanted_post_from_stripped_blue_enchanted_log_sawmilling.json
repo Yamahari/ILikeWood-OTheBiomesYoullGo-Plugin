@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:stripped_blue_enchanted_log"
-  },
-  "result": "ilikewood:stripped_blue_enchanted_post",
-  "count": 2
-}

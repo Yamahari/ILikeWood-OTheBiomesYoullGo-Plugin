@@ -1,8 +1,0 @@
-{
-  "parent": "ilikewood:block/composter/template",
-  "textures": {
-    "top": "ilikewood:block/composter/top/aspen",
-    "side": "ilikewood:block/composter/side/aspen",
-    "bottom": "ilikewood:block/composter/bottom/aspen"
-  }
-}

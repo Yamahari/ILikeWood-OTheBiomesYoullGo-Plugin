@@ -1,7 +1,0 @@
-{
-  "parent": "ilikewood:block/table/beam/template",
-  "textures": {
-    "log_end": "byg:block/willow_log_top",
-    "stripped_log_side": "byg:block/stripped_willow_log"
-  }
-}

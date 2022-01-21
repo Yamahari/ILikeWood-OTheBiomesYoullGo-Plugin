@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:stripped_nightshade_log"
-  },
-  "result": "ilikewood:nightshade_panels",
-  "count": 4
-}

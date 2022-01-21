@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:cika_planks"
-  },
-  "result": "ilikewood:cika_panels_slab",
-  "count": 2
-}

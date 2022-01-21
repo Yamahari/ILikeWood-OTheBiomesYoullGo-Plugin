@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:stripped_cypress_log"
-  },
-  "result": "ilikewood:stripped_cypress_post",
-  "count": 2
-}

@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:mangrove_planks"
-  },
-  "result": "ilikewood:mangrove_panels",
-  "count": 1
-}

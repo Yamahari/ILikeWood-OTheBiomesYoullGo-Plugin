@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:ebony_log"
-  },
-  "result": "ilikewood:ebony_wall",
-  "count": 1
-}

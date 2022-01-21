@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:maple_log"
-  },
-  "result": "ilikewood:maple_post",
-  "count": 2
-}

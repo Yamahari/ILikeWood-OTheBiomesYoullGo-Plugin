@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "ilikewood:holly_panels"
-  },
-  "result": "ilikewood:holly_panels_stairs",
-  "count": 1
-}

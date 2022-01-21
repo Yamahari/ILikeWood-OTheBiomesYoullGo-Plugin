@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:stripped_cika_log"
-  },
-  "result": "ilikewood:cika_panels",
-  "count": 4
-}

@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:stripped_embur_pedu"
-  },
-  "result": "ilikewood:embur_panels",
-  "count": 4
-}

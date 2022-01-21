@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:stripped_cherry_log"
-  },
-  "result": "ilikewood:byg_cherry_panels",
-  "count": 4
-}

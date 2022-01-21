@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:ether_log"
-  },
-  "result": "ilikewood:ether_wall",
-  "count": 1
-}

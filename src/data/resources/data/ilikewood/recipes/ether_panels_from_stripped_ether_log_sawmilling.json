@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:stripped_ether_log"
-  },
-  "result": "ilikewood:ether_panels",
-  "count": 4
-}

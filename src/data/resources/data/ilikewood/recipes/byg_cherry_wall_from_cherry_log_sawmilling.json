@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:cherry_log"
-  },
-  "result": "ilikewood:byg_cherry_wall",
-  "count": 1
-}

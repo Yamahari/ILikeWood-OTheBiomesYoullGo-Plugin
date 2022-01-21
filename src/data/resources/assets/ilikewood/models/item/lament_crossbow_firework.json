@@ -1,6 +1,0 @@
-{
-  "parent": "ilikewood:item/lament_crossbow",
-  "textures": {
-    "layer0": "ilikewood:item/crossbow/firework/lament"
-  }
-}

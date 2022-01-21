@@ -1,9 +1,0 @@
-{
-  "parent": "ilikewood:block/bed/foot/template",
-  "textures": {
-    "planks": "byg:block/rainbow_eucalyptus_planks",
-    "frame": "ilikewood:block/bed/frame/rainbow_eucalyptus",
-    "top": "ilikewood:block/bed/sheets/foot/top/cyan",
-    "sides": "ilikewood:block/bed/sheets/foot/sides/cyan"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "type": "ilikewood:sawmilling",
-  "ingredient": {
-    "item": "byg:jacaranda_log"
-  },
-  "result": "ilikewood:byg_jacaranda_panels",
-  "count": 4
-}

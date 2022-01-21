@@ -1,6 +1,0 @@
-{
-  "parent": "ilikewood:block/post/template",
-  "textures": {
-    "wall": "byg:block/imparius_stem"
-  }
-}
