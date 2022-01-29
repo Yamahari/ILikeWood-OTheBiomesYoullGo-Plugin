@@ -42,8 +42,8 @@ public final class OhTheBiomesYoullGoWoodenItemTiers {
         createItemTier(OhTheBiomesYoullGoWoodTypes.NIGHTSHADE, Constants.NIGHTSHADE);
     public static final IWoodenItemTier PALM = createItemTier(OhTheBiomesYoullGoWoodTypes.PALM, Constants.PALM);
     public static final IWoodenItemTier PINE = createItemTier(OhTheBiomesYoullGoWoodTypes.PINE, Constants.PINE);
-    public static final IWoodenItemTier RAINBOW_EUCALYPTUS =
-        createItemTier(OhTheBiomesYoullGoWoodTypes.RAINBOW_EUCALYPTUS, Constants.RAINBOW_EUCALYPTUS);
+    /*public static final IWoodenItemTier RAINBOW_EUCALYPTUS =
+        createItemTier(OhTheBiomesYoullGoWoodTypes.RAINBOW_EUCALYPTUS, Constants.RAINBOW_EUCALYPTUS);*/
     public static final IWoodenItemTier REDWOOD =
         createItemTier(OhTheBiomesYoullGoWoodTypes.REDWOOD, Constants.REDWOOD);
     public static final IWoodenItemTier SKYRIS = createItemTier(OhTheBiomesYoullGoWoodTypes.SKYRIS, Constants.SKYRIS);
@@ -62,8 +62,7 @@ public final class OhTheBiomesYoullGoWoodenItemTiers {
         return new DefaultWoodenItemTier(woodType,
             Constants.BYG_MOD_ID,
             name,
-            () -> Ingredient.of(OhTheBiomesYoullGoPlugin.BLOCK_REGISTRY.getObject(woodType,
-                WoodenBlockType.PANELS)));
+            () -> Ingredient.of(OhTheBiomesYoullGoPlugin.BLOCK_REGISTRY.getObject(woodType, WoodenBlockType.PANELS)));
     }
 
     public static Stream<IWoodenItemTier> getAll() {
@@ -78,7 +77,7 @@ public final class OhTheBiomesYoullGoWoodenItemTiers {
             OhTheBiomesYoullGoWoodenItemTiers.EMBUR,
             OhTheBiomesYoullGoWoodenItemTiers.ETHER,
             OhTheBiomesYoullGoWoodenItemTiers.FIR,
-            //OhTheBiomesYoullGoWoodenItemTiers.GLACIAL_OAK,
+            // OhTheBiomesYoullGoWoodenItemTiers.GLACIAL_OAK,
             OhTheBiomesYoullGoWoodenItemTiers.GREEN_ENCHANTED,
             OhTheBiomesYoullGoWoodenItemTiers.HOLLY,
             OhTheBiomesYoullGoWoodenItemTiers.IMPARIUS,
@@ -90,7 +89,7 @@ public final class OhTheBiomesYoullGoWoodenItemTiers {
             OhTheBiomesYoullGoWoodenItemTiers.NIGHTSHADE,
             OhTheBiomesYoullGoWoodenItemTiers.PALM,
             OhTheBiomesYoullGoWoodenItemTiers.PINE,
-            OhTheBiomesYoullGoWoodenItemTiers.RAINBOW_EUCALYPTUS,
+            // OhTheBiomesYoullGoWoodenItemTiers.RAINBOW_EUCALYPTUS,
             OhTheBiomesYoullGoWoodenItemTiers.REDWOOD,
             OhTheBiomesYoullGoWoodenItemTiers.SKYRIS,
             OhTheBiomesYoullGoWoodenItemTiers.SYTHIAN,

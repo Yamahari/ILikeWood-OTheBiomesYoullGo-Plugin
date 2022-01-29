@@ -18,9 +18,11 @@ public class WoodType implements IWoodType {
 
     private final String name;
     private final Set<WoodenBlockType> blockTypes;
+    private final Colors colors;
 
-    public WoodType(final String name, final boolean hasStrippedLog) {
+    public WoodType(final String name, final Colors colors, final boolean hasStrippedLog) {
         this.name = name;
+        this.colors = colors;
         this.blockTypes = hasStrippedLog ? BLOCK_TYPES_WITH_STRIPPED_LOG : BLOCK_TYPES_WITHOUT_STRIPPED_LOG;
     }
 
@@ -163,5 +165,10 @@ public class WoodType implements IWoodType {
     @Override
     public Set<WoodenItemType> getBuiltinItemTypes() {
         return DefaultWoodType.DEFAULT_BUILTIN_ITEM_TYPES;
+    }
+
+    @Override
+    public Colors getColors() {
+        return this.colors;
     }
 }

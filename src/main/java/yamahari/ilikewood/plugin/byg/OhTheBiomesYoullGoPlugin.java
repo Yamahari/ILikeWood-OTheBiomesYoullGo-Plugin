@@ -20,6 +20,11 @@ public final class OhTheBiomesYoullGoPlugin implements IModPlugin {
     }
 
     @Override
+    public String getPluginModId() {
+        return Constants.MOD_ID;
+    }
+
+    @Override
     public void registerWoodTypes(final IWoodTypeRegistry registry) {
         OhTheBiomesYoullGoWoodTypes.getAll().forEach(registry::register);
     }

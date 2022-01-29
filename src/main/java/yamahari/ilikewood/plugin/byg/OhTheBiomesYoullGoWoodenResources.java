@@ -32,7 +32,7 @@ public final class OhTheBiomesYoullGoWoodenResources {
     public static final Map<IWoodType, IWoodenSlabResource> SLABS;
     public static final Map<IWoodType, IWoodenResource> BOOKSHELFS = getResource(WoodenBlockType.BOOKSHELF);
     public static final Map<IWoodType, IWoodenResource> CRAFTING_TABLES = getResource(WoodenBlockType.CRAFTING_TABLE);
-    //public static final Map<IWoodType, IWoodenResource> WALLS = getResource(WoodenBlockType.WALL);
+    // public static final Map<IWoodType, IWoodenResource> WALLS = getResource(WoodenBlockType.WALL);
 
     static {
         final Map<IWoodType, IWoodenPlanksResource> planks = new HashMap<>();
@@ -57,17 +57,29 @@ public final class OhTheBiomesYoullGoWoodenResources {
             planks.put(woodType,
                 new WoodenPlanksResource(planksTexture,
                     planksResource,
-                      BlockBehaviour.Properties
+                    BlockBehaviour.Properties
                         .of(Material.WOOD, MaterialColor.COLOR_BROWN)
                         .sound(SoundType.WOOD)
                         .strength(2.0F, 3.0F)));
 
-            logs.put(woodType,
-                new WoodenLogResource(new ResourceLocation(logResource.getNamespace(),
-                    Util.toPath(ModelProvider.BLOCK_FOLDER, Util.toRegistryName(logResource.getPath(), "top"))),
-                    new ResourceLocation(logResource.getNamespace(),
-                        Util.toPath(ModelProvider.BLOCK_FOLDER, logResource.getPath())),
-                    logResource));
+            if (woodType.equals(OhTheBiomesYoullGoWoodTypes.GREEN_ENCHANTED) ||
+                woodType.equals(OhTheBiomesYoullGoWoodTypes.BLUE_ENCHANTED) ||
+                woodType.equals(OhTheBiomesYoullGoWoodTypes.EMBUR)) {
+                logs.put(woodType,
+                    new WoodenLogResource(new ResourceLocation(logResource.getNamespace(),
+                        Util.toPath(ModelProvider.BLOCK_FOLDER, Util.toRegistryName(logResource.getPath(), "top"))),
+                        new ResourceLocation(logResource.getNamespace(),
+                            Util.toPath(ModelProvider.BLOCK_FOLDER, logResource.getPath())),
+                        logResource,
+                        new IWoodenLogResource.SideTextureProperties(true, true, 10)));
+            } else {
+                logs.put(woodType,
+                    new WoodenLogResource(new ResourceLocation(logResource.getNamespace(),
+                        Util.toPath(ModelProvider.BLOCK_FOLDER, Util.toRegistryName(logResource.getPath(), "top"))),
+                        new ResourceLocation(logResource.getNamespace(),
+                            Util.toPath(ModelProvider.BLOCK_FOLDER, logResource.getPath())),
+                        logResource));
+            }
 
             strippedLogs.put(woodType,
                 new WoodenStrippedLogResource(new ResourceLocation(strippedLogResource.getNamespace(),
