@@ -66,6 +66,7 @@ public class WoodType implements IWoodType {
         blockTypes.add(WoodenBlockType.CHAIR);
         blockTypes.add(WoodenBlockType.TABLE);
         blockTypes.add(WoodenBlockType.STOOL);
+        blockTypes.add(WoodenBlockType.SINGLE_DRESSER);
 
         return Collections.unmodifiableSet(blockTypes);
     }

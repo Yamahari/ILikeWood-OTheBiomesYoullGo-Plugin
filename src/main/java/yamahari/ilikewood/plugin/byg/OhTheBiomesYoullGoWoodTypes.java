@@ -1,6 +1,5 @@
 package yamahari.ilikewood.plugin.byg;
 
-import com.mojang.blaze3d.platform.NativeImage;
 import yamahari.ilikewood.plugin.byg.util.Constants;
 import yamahari.ilikewood.plugin.byg.util.WoodType;
 import yamahari.ilikewood.registry.woodtype.IWoodType;
@@ -311,8 +310,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
     private OhTheBiomesYoullGoWoodTypes() {
     }
 
-    private static int color(final int r, final int g, final int b) {
-        return NativeImage.combine(0xFF, b, g, r);
+    private static int color(int r, int g, int b) {
+        return 255 << 24 | (b & 255) << 16 | (g & 255) << 8 | (r & 255);
     }
 
     private static IWoodType withStrippedLog(final String name, final int[] colors) {
@@ -324,7 +323,13 @@ public final class OhTheBiomesYoullGoWoodTypes {
     }
 
     public static Stream<IWoodType> getAll() {
-        return Stream.of(ASPEN, BAOBAB, BLUE_ENCHANTED, BULBIS, CHERRY, CIKA, CYPRESS,
+        return Stream.of(ASPEN,
+            BAOBAB,
+            BLUE_ENCHANTED,
+            BULBIS,
+            CHERRY,
+            CIKA,
+            CYPRESS,
             EBONY,
             EMBUR,
             ETHER,

@@ -70,8 +70,7 @@ public final class OhTheBiomesYoullGoWoodenResources {
                         Util.toPath(ModelProvider.BLOCK_FOLDER, Util.toRegistryName(logResource.getPath(), "top"))),
                         new ResourceLocation(logResource.getNamespace(),
                             Util.toPath(ModelProvider.BLOCK_FOLDER, logResource.getPath())),
-                        logResource,
-                        new IWoodenLogResource.SideTextureProperties(true, true, 10)));
+                        logResource, new IWoodenLogResource.SideTextureProperties(true, true, 10)));
             } else {
                 logs.put(woodType,
                     new WoodenLogResource(new ResourceLocation(logResource.getNamespace(),
@@ -81,13 +80,15 @@ public final class OhTheBiomesYoullGoWoodenResources {
                         logResource));
             }
 
-            strippedLogs.put(woodType,
-                new WoodenStrippedLogResource(new ResourceLocation(strippedLogResource.getNamespace(),
-                    Util.toPath(ModelProvider.BLOCK_FOLDER, Util.toRegistryName(strippedLogResource.getPath(), "top"))),
-                    new ResourceLocation(strippedLogResource.getNamespace(),
-                        Util.toPath(ModelProvider.BLOCK_FOLDER, strippedLogResource.getPath())),
-                    strippedLogResource));
-
+            if (!woodType.equals(OhTheBiomesYoullGoWoodTypes.IMPARIUS)) {
+                strippedLogs.put(woodType,
+                    new WoodenStrippedLogResource(new ResourceLocation(strippedLogResource.getNamespace(),
+                        Util.toPath(ModelProvider.BLOCK_FOLDER,
+                            Util.toRegistryName(strippedLogResource.getPath(), "top"))),
+                        new ResourceLocation(strippedLogResource.getNamespace(),
+                            Util.toPath(ModelProvider.BLOCK_FOLDER, strippedLogResource.getPath())),
+                        strippedLogResource));
+            }
             slabs.put(woodType, new WoodenSlabResource(planksTexture, planksTexture, planksTexture, slabResource));
         });
 

@@ -39,8 +39,10 @@ public final class OhTheBiomesYoullGoPlugin implements IModPlugin {
         OhTheBiomesYoullGoWoodTypes.getAll().forEach(woodType -> {
             registry.registerPlanksResource(woodType, OhTheBiomesYoullGoWoodenResources.PLANKS.get(woodType));
             registry.registerLogResource(woodType, OhTheBiomesYoullGoWoodenResources.LOGS.get(woodType));
-            registry.registerStrippedLogResource(woodType,
-                OhTheBiomesYoullGoWoodenResources.STRIPPED_LOGS.get(woodType));
+            if (!woodType.equals(OhTheBiomesYoullGoWoodTypes.IMPARIUS)) {
+                registry.registerStrippedLogResource(woodType,
+                    OhTheBiomesYoullGoWoodenResources.STRIPPED_LOGS.get(woodType));
+            }
             registry.registerSlabResource(woodType, OhTheBiomesYoullGoWoodenResources.SLABS.get(woodType));
             registry.registerBlockResource(woodType,
                 WoodenBlockType.BOOKSHELF,
