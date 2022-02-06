@@ -77,17 +77,11 @@ classes.configure {
     dependsOn(replaceVersions)
 }
 
-configurations {
-    ilikewood
-    runtimeOnly.extendsFrom(ilikewood)
-}
-
 dependencies {
     minecraft "net.minecraftforge:forge:${version_mc}-${version_forge}"
 
     compileOnly fg.deobf("build.libs:ilikewood:${version_mc}-${version_ilw}:api")
-
-    ilikewood fg.deobf("build.libs:ilikewood:${version_mc}-${version_ilw}")
+    runtimeOnly fg.deobf("build.libs:ilikewood:${version_mc}-${version_ilw}")
 
     runtimeOnly fg.deobf("build.libs:byg:${version_mc}-${version_byg}")
     runtimeOnly fg.deobf("build.libs:TerraBlender:${version_mc}-${version_terra_blender}")
@@ -138,7 +132,7 @@ minecraft {
                     '--all',
                     '--output', file('src/data/resources/ilikewood_resources'),
                     '--existing', file('src/main/resources/'),
-                    '--existing', configurations.ilikewood.asPath,
+                    '--existing-mod', 'ilikewood',
                     '--existing-mod', 'byg'
             mods {
                 ilikewoodxbyg {
