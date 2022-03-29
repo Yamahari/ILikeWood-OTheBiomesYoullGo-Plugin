@@ -15,15 +15,18 @@ public class WoodType implements IWoodType {
     private static final Set<WoodenBlockType> BLOCK_TYPES_WITH_STRIPPED_LOG = createBlockTypesWithStrippedLog();
     private static final Set<WoodenBlockType> BLOCK_TYPES_WITHOUT_STRIPPED_LOG = createBlockTypesWithoutStrippedLog();
     private static final Set<WoodenBlockType> BUILTIN_BLOCK_TYPES = createBuiltinBlockTypesSet();
+    private static final Set<WoodenEntityType> ENTITY_TYPES_WITHOUT_STRIPPED_LOG = createEntityTypesWithoutStrippedLog();
 
     private final String name;
     private final Set<WoodenBlockType> blockTypes;
+    private final Set<WoodenEntityType> entityTypes;
     private final Colors colors;
 
     public WoodType(final String name, final Colors colors, final boolean hasStrippedLog) {
         this.name = name;
         this.colors = colors;
         this.blockTypes = hasStrippedLog ? BLOCK_TYPES_WITH_STRIPPED_LOG : BLOCK_TYPES_WITHOUT_STRIPPED_LOG;
+        this.entityTypes = hasStrippedLog ? DefaultWoodType.DEFAULT_ENTITY_TYPES : ENTITY_TYPES_WITHOUT_STRIPPED_LOG;
     }
 
     private static Set<WoodenBlockType> createBlockTypesWithStrippedLog() {
@@ -67,6 +70,7 @@ public class WoodType implements IWoodType {
         blockTypes.add(WoodenBlockType.TABLE);
         blockTypes.add(WoodenBlockType.STOOL);
         blockTypes.add(WoodenBlockType.SINGLE_DRESSER);
+        blockTypes.add(WoodenBlockType.LOG_PILE);
 
         return Collections.unmodifiableSet(blockTypes);
     }
@@ -104,6 +108,7 @@ public class WoodType implements IWoodType {
         blockTypes.add(WoodenBlockType.WALL_TORCH);
         blockTypes.add(WoodenBlockType.WALL_SOUL_TORCH);
         blockTypes.add(WoodenBlockType.POST);
+        blockTypes.add(WoodenBlockType.LOG_PILE);
 
         return Collections.unmodifiableSet(blockTypes);
     }
@@ -116,6 +121,14 @@ public class WoodType implements IWoodType {
         // builtinBlockTypes.add(WoodenBlockType.WALL);
 
         return Collections.unmodifiableSet(builtinBlockTypes);
+    }
+
+    private static Set<WoodenEntityType> createEntityTypesWithoutStrippedLog() {
+        final Set<WoodenEntityType> entityTypes = new HashSet<>();
+
+        entityTypes.add(WoodenEntityType.ITEM_FRAME);
+
+        return Collections.unmodifiableSet(entityTypes);
     }
 
     @Override
@@ -150,7 +163,7 @@ public class WoodType implements IWoodType {
 
     @Override
     public Set<WoodenEntityType> getEntityTypes() {
-        return DefaultWoodType.DEFAULT_ENTITY_TYPES;
+        return this.entityTypes;
     }
 
     @Override
