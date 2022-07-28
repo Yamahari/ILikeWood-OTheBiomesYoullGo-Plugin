@@ -6,7 +6,8 @@ import yamahari.ilikewood.registry.woodtype.IWoodType;
 
 import java.util.stream.Stream;
 
-public final class OhTheBiomesYoullGoWoodTypes {
+public final class OhTheBiomesYoullGoWoodTypes
+{
     public static final IWoodType ASPEN = withStrippedLog(Constants.ASPEN, new int[]{
         color(127, 87, 72),
         color(140, 96, 79),
@@ -15,7 +16,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(196, 129, 90),
         color(200, 137, 101),
         color(222, 157, 127),
-        color(221, 173, 141)});
+        color(221, 173, 141)
+    });
 
     public static final IWoodType BAOBAB = withStrippedLog(Constants.BAOBAB, new int[]{
         color(70, 59, 32),
@@ -25,7 +27,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(135, 114, 62),
         color(147, 124, 67),
         color(168, 141, 77),
-        color(179, 153, 91)});
+        color(179, 153, 91)
+    });
 
     public static final IWoodType BLUE_ENCHANTED = withStrippedLog(Constants.BLUE_ENCHANTED, new int[]{
         color(39, 46, 78),
@@ -35,7 +38,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(60, 70, 119),
         color(63, 74, 125),
         color(68, 81, 136),
-        color(76, 89, 148)});
+        color(76, 89, 148)
+    });
 
     public static final IWoodType BULBIS = withStrippedLog(Constants.BULBIS, new int[]{
         color(58, 37, 75),
@@ -45,7 +49,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(121, 58, 161),
         color(128, 62, 172),
         color(148, 74, 191),
-        color(157, 94, 197)});
+        color(157, 94, 197)
+    });
 
     public static final IWoodType CHERRY = withStrippedLog(Constants.CHERRY, new int[]{
         color(69, 9, 19),
@@ -55,7 +60,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(102, 19, 33),
         color(107, 19, 32),
         color(118, 21, 35),
-        color(128, 24, 39)});
+        color(128, 24, 39)
+    });
 
     public static final IWoodType CIKA = withStrippedLog(Constants.CIKA, new int[]{
         color(77, 36, 22),
@@ -65,7 +71,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(127, 54, 30),
         color(133, 56, 31),
         color(148, 64, 36),
-        color(174, 76, 43)});
+        color(174, 76, 43)
+    });
 
     public static final IWoodType CYPRESS = withStrippedLog(Constants.CYPRESS, new int[]{
         color(83, 83, 54),
@@ -75,7 +82,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(131, 126, 73),
         color(141, 137, 94),
         color(157, 148, 107),
-        color(172, 162, 114)});
+        color(172, 162, 114)
+    });
 
     public static final IWoodType EBONY = withStrippedLog(Constants.EBONY, new int[]{
         color(18, 18, 18),
@@ -85,7 +93,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(32, 32, 32),
         color(33, 33, 33),
         color(36, 36, 36),
-        color(41, 41, 41)});
+        color(41, 41, 41)
+    });
 
     public static final IWoodType EMBUR = withStrippedLog(Constants.EMBUR, new int[]{
         color(49, 39, 31),
@@ -95,7 +104,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(76, 61, 50),
         color(79, 64, 53),
         color(85, 68, 55),
-        color(93, 75, 60)});
+        color(93, 75, 60)
+    });
 
     public static final IWoodType ETHER = withStrippedLog(Constants.ETHER, new int[]{
         color(22, 59, 40),
@@ -105,7 +115,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(35, 92, 63),
         color(37, 99, 68),
         color(44, 120, 82),
-        color(51, 138, 94)});
+        color(51, 138, 94)
+    });
 
     public static final IWoodType FIR = withStrippedLog(Constants.FIR, new int[]{
         color(69, 51, 38),
@@ -115,7 +126,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(130, 88, 66),
         color(139, 99, 73),
         color(159, 117, 83),
-        color(178, 143, 108)});
+        color(178, 143, 108)
+    });
 
     /*public static final IWoodType GLACIAL_OAK = withoutStrippedLog(Constants.GLACIAL_OAK, new int[]{
                color(130, 153, 149),
@@ -135,7 +147,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(55, 108, 69),
         color(56, 112, 75),
         color(63, 125, 76),
-        color(69, 135, 82)});
+        color(69, 135, 82)
+    });
 
     public static final IWoodType HOLLY = withStrippedLog(Constants.HOLLY, new int[]{
         color(123, 101, 91),
@@ -145,7 +158,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(186, 143, 115),
         color(191, 151, 125),
         color(216, 172, 149),
-        color(216, 185, 161)});
+        color(216, 185, 161)
+    });
 
     public static final IWoodType IMPARIUS = withoutStrippedLog(Constants.IMPARIUS, new int[]{
         color(51, 107, 115),
@@ -155,7 +169,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(99, 156, 162),
         color(105, 163, 168),
         color(119, 177, 181),
-        color(133, 191, 195)});
+        color(133, 191, 195)
+    });
 
     public static final IWoodType JACARANDA = withStrippedLog(Constants.JACARANDA, new int[]{
         color(92, 61, 60),
@@ -165,7 +180,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(152, 109, 105),
         color(159, 113, 109),
         color(167, 119, 118),
-        color(175, 124, 123)});
+        color(175, 124, 123)
+    });
 
     public static final IWoodType LAMENT = withStrippedLog(Constants.LAMENT, new int[]{
         color(43, 39, 79),
@@ -175,7 +191,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(69, 63, 126),
         color(72, 66, 133),
         color(78, 71, 144),
-        color(87, 79, 161)});
+        color(87, 79, 161)
+    });
 
     public static final IWoodType MAHOGANY = withStrippedLog(Constants.MAHOGANY, new int[]{
         color(59, 38, 42),
@@ -185,9 +202,10 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(116, 76, 84),
         color(122, 82, 90),
         color(140, 90, 100),
-        color(160, 106, 117)});
+        color(160, 106, 117)
+    });
 
-    public static final IWoodType MANGROVE = withStrippedLog(Constants.MANGROVE, new int[]{
+    public static final IWoodType MANGROVE = withStrippedLog(Constants.WHITE_MANGROVE, new int[]{
         color(123, 111, 111),
         color(133, 133, 133),
         color(150, 146, 146),
@@ -195,7 +213,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(163, 163, 163),
         color(181, 181, 181),
         color(194, 194, 194),
-        color(209, 209, 209)});
+        color(209, 209, 209)
+    });
 
     public static final IWoodType MAPLE = withStrippedLog(Constants.MAPLE, new int[]{
         color(58, 53, 49),
@@ -205,7 +224,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(109, 95, 87),
         color(116, 104, 96),
         color(132, 120, 110),
-        color(153, 143, 133)});
+        color(153, 143, 133)
+    });
 
     public static final IWoodType NIGHTSHADE = withStrippedLog(Constants.NIGHTSHADE, new int[]{
         color(103, 57, 15),
@@ -215,7 +235,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(151, 86, 23),
         color(163, 94, 24),
         color(190, 109, 28),
-        color(219, 125, 33)});
+        color(219, 125, 33)
+    });
 
     public static final IWoodType PALM = withStrippedLog(Constants.PALM, new int[]{
         color(77, 72, 61),
@@ -225,7 +246,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(145, 134, 108),
         color(155, 141, 111),
         color(168, 155, 122),
-        color(176, 167, 146)});
+        color(176, 167, 146)
+    });
 
     public static final IWoodType PINE = withStrippedLog(Constants.PINE, new int[]{
         color(99, 91, 76),
@@ -235,7 +257,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(160, 149, 121),
         color(166, 156, 129),
         color(178, 167, 138),
-        color(197, 185, 154)});
+        color(197, 185, 154)
+    });
 
     /*public static final IWoodType RAINBOW_EUCALYPTUS = withStrippedLog(Constants.RAINBOW_EUCALYPTUS, new int[]{
         color(151, 125, 108),
@@ -255,7 +278,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(89, 31, 31),
         color(94, 33, 33),
         color(106, 37, 37),
-        color(128, 45, 45)});
+        color(128, 45, 45)
+    });
 
     public static final IWoodType SKYRIS = withStrippedLog(Constants.SKYRIS, new int[]{
         color(0, 70, 105),
@@ -265,7 +289,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(29, 130, 178),
         color(30, 137, 187),
         color(32, 148, 203),
-        color(36, 168, 229)});
+        color(36, 168, 229)
+    });
 
     public static final IWoodType SYTHIAN = withStrippedLog(Constants.SYTHIAN, new int[]{
         color(69, 53, 0),
@@ -275,7 +300,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(137, 117, 5),
         color(150, 129, 5),
         color(172, 148, 9),
-        color(187, 166, 13)});
+        color(187, 166, 13)
+    });
 
     public static final IWoodType WILLOW = withStrippedLog(Constants.WILLOW, new int[]{
         color(28, 33, 15),
@@ -285,7 +311,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(59, 71, 31),
         color(66, 79, 35),
         color(74, 89, 39),
-        color(85, 102, 45)});
+        color(85, 102, 45)
+    });
 
     public static final IWoodType WITCH_HAZEL = withStrippedLog(Constants.WITCH_HAZEL, new int[]{
         color(189, 131, 38),
@@ -295,7 +322,8 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(40, 98, 64),
         color(78, 97, 46),
         color(49, 119, 77),
-        color(89, 110, 52)});
+        color(89, 110, 52)
+    });
 
     public static final IWoodType ZELKOVA = withStrippedLog(Constants.ZELKOVA, new int[]{
         color(79, 39, 19),
@@ -305,51 +333,42 @@ public final class OhTheBiomesYoullGoWoodTypes {
         color(140, 81, 41),
         color(150, 88, 47),
         color(171, 99, 54),
-        color(191, 109, 54)});
+        color(191, 109, 54)
+    });
 
-    private OhTheBiomesYoullGoWoodTypes() {
+    private OhTheBiomesYoullGoWoodTypes()
+    {
     }
 
-    private static int color(int r, int g, int b) {
+    private static int color(
+        int r,
+        int g,
+        int b
+    )
+    {
         return 255 << 24 | (b & 255) << 16 | (g & 255) << 8 | (r & 255);
     }
 
-    private static IWoodType withStrippedLog(final String name, final int[] colors) {
+    private static IWoodType withStrippedLog(
+        final String name,
+        final int[] colors
+    )
+    {
         return new WoodType(name, new IWoodType.Colors(colors), true);
     }
 
-    private static IWoodType withoutStrippedLog(final String name, final int[] colors) {
+    private static IWoodType withoutStrippedLog(
+        final String name,
+        final int[] colors
+    )
+    {
         return new WoodType(name, new IWoodType.Colors(colors), false);
     }
 
-    public static Stream<IWoodType> getAll() {
-        return Stream.of(ASPEN,
-            BAOBAB,
-            BLUE_ENCHANTED,
-            BULBIS,
-            CHERRY,
-            CIKA,
-            CYPRESS,
-            EBONY,
-            EMBUR,
-            ETHER,
-            FIR,
-            GREEN_ENCHANTED,
-            HOLLY,
-            IMPARIUS,
-            JACARANDA,
-            LAMENT,
-            MAHOGANY,
-            MANGROVE,
-            MAPLE,
-            NIGHTSHADE,
-            PALM,
-            PINE,
-            REDWOOD,
-            SKYRIS,
-            SYTHIAN,
-            WILLOW,
-            WITCH_HAZEL,
-            ZELKOVA);
+    public static Stream<IWoodType> getAll()
+    {
+        return Stream.of(ASPEN, BAOBAB, BLUE_ENCHANTED, BULBIS, CHERRY, CIKA, CYPRESS, EBONY, EMBUR, ETHER, FIR, GREEN_ENCHANTED, HOLLY, IMPARIUS, JACARANDA, LAMENT,
+            MAHOGANY, MANGROVE, MAPLE, NIGHTSHADE, PALM, PINE, REDWOOD, SKYRIS, SYTHIAN, WILLOW, WITCH_HAZEL, ZELKOVA
+        );
     }
 }

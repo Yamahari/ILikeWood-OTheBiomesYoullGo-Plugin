@@ -85,7 +85,7 @@ dependencies {
 
     runtimeOnly fg.deobf("build.libs:byg:${version_mc}-${version_byg}")
     runtimeOnly fg.deobf("build.libs:TerraBlender:${version_mc}-${version_terra_blender}")
-    runtimeOnly fg.deobf("mezz.jei:jei-${version_mc}:${version_jei}")
+    runtimeOnly fg.deobf("mezz.jei:jei-${version_mc}-forge:${version_jei}")
 }
 
 minecraft {

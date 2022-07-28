@@ -62,7 +62,6 @@ public class WoodType implements IWoodType {
         blockTypes.add(WoodenBlockType.TORCH);
         blockTypes.add(WoodenBlockType.WALL_TORCH);
         blockTypes.add(WoodenBlockType.WALL_SOUL_TORCH);
-
         blockTypes.add(WoodenBlockType.POST);
         blockTypes.add(WoodenBlockType.STRIPPED_POST);
         blockTypes.add(WoodenBlockType.WALL);
@@ -118,7 +117,6 @@ public class WoodType implements IWoodType {
 
         builtinBlockTypes.add(WoodenBlockType.CRAFTING_TABLE);
         builtinBlockTypes.add(WoodenBlockType.BOOKSHELF);
-        // builtinBlockTypes.add(WoodenBlockType.WALL);
 
         return Collections.unmodifiableSet(builtinBlockTypes);
     }
