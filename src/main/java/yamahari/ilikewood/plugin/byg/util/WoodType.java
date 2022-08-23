@@ -129,6 +129,7 @@ public class WoodType implements IWoodType {
         final Set<WoodenEntityType> entityTypes = new HashSet<>();
 
         entityTypes.add(WoodenEntityType.ITEM_FRAME);
+        entityTypes.add(WoodenEntityType.PAINTING);
 
         return Collections.unmodifiableSet(entityTypes);
     }
