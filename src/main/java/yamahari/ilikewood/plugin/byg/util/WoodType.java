@@ -72,6 +72,7 @@ public class WoodType implements IWoodType {
         blockTypes.add(WoodenBlockType.LOG_PILE);
         blockTypes.add(WoodenBlockType.CAMPFIRE);
         blockTypes.add(WoodenBlockType.SOUL_CAMPFIRE);
+        blockTypes.add(WoodenBlockType.CRATE);
 
         return Collections.unmodifiableSet(blockTypes);
     }
@@ -112,6 +113,7 @@ public class WoodType implements IWoodType {
         blockTypes.add(WoodenBlockType.LOG_PILE);
         blockTypes.add(WoodenBlockType.CAMPFIRE);
         blockTypes.add(WoodenBlockType.SOUL_CAMPFIRE);
+        blockTypes.add(WoodenBlockType.CRATE);
 
         return Collections.unmodifiableSet(blockTypes);
     }
